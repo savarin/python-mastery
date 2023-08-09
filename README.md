@@ -94,7 +94,7 @@ exercises.
 
 **A:** You can use [GitHub discussions](https://github.com/dabeaz-course/python-mastery/discussions) to discuss the course.
 
-**Q: What wasn't topic/tool/library X covered?**
+**Q: Why wasn't topic/tool/library X covered?**
 
 **A:** The course was designed to be completed in an intense 4-day
 in-person format. It simply isn't possible to cover absolutely
@@ -106,8 +106,14 @@ Python language, not third party libraries or tooling.
 **A:** Mainly, it's an issue of calendar timing and scope.  Course
 material was primarily developed pre-pandemic and represents Python as
 it was at that time. Some topics (e.g., typing or async) are
-sufficiently complex that they would be bettered covered on their own
+sufficiently complex that they would be better covered on their own
 in a separate course.
+
+**Q: Why did you release the course?**
+
+**A:** This course was extensively taught pre-pandemic. Post-pandemic,
+my teaching has shifted towards projects and CS fundamentals.
+However, why let a good course just languish on my computer? 
 
 **Q: How can I help?**
 
