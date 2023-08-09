@@ -1,4 +1,3 @@
-
 def portfolio_cost(filename):
     result = 0
 
@@ -13,15 +12,16 @@ def portfolio_cost(filename):
     return result
 
 
-with open("Data/portfolio.dat") as f:
-    result = 0
+if __name__ == "__main__":
+    with open("Data/portfolio.dat") as f:
+        result = 0
 
-    for line in f:
-        _, quantity, price = line.split(" ")
-        result += int(quantity) * float(price)
+        for line in f:
+            _, quantity, price = line.split(" ")
+            result += int(quantity) * float(price)
 
-    print(result)
+        print(result)
 
-    print(portfolio_cost("Data/portfolio.dat"))
+        print(portfolio_cost("Data/portfolio.dat"))
 
-    print(portfolio_cost("Data/portfolio3.dat"))
+        print(portfolio_cost("Data/portfolio3.dat"))
